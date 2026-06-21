@@ -55,6 +55,6 @@ The test runner will verify:
 ---
 
 ## Technical Stack
-- **Frontend**: React, Vite, custom Vanilla CSS variables for glassmorphism styling.
+- **Frontend**: React, Vite, custom Vanilla CSS variables for warm industrial / parts-catalog styling.
 - **Backend**: Node.js, Express.
 - **Database**: Flat-file JSON database (`db.json`) for persistence with zero external database dependencies.
