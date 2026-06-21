@@ -1,0 +1,183 @@
+{
+  "parts": [
+    {
+      "id": "part-frame-steel",
+      "name": "Frame - Steel Heavy Duty",
+      "category": "Frame",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 1200 },
+        { "date": "2026-04-01", "cost": 1300 },
+        { "date": "2026-06-01", "cost": 1350 }
+      ]
+    },
+    {
+      "id": "part-frame-aluminum",
+      "name": "Frame - Aluminum Alloy Light",
+      "category": "Frame",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 2500 },
+        { "date": "2026-04-01", "cost": 2700 }
+      ]
+    },
+    {
+      "id": "part-frame-carbon",
+      "name": "Frame - Carbon Fiber Pro",
+      "category": "Frame",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 7500 },
+        { "date": "2026-05-01", "cost": 8000 }
+      ]
+    },
+    {
+      "id": "part-gear-single",
+      "name": "Single Speed Standard Gear",
+      "category": "Gear",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 350 }
+      ]
+    },
+    {
+      "id": "part-gear-7spd",
+      "name": "7-Speed Shimano Gearset",
+      "category": "Gear",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 1200 },
+        { "date": "2026-03-01", "cost": 1300 }
+      ]
+    },
+    {
+      "id": "part-gear-21spd",
+      "name": "21-Speed Shimano Tourney Gearset",
+      "category": "Gear",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 2500 },
+        { "date": "2026-06-01", "cost": 2800 }
+      ]
+    },
+    {
+      "id": "part-tyre-road",
+      "name": "Standard Road Tyre (Pair)",
+      "category": "Tyre",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 400 },
+        { "date": "2026-03-01", "cost": 450 },
+        { "date": "2026-06-01", "cost": 480 }
+      ]
+    },
+    {
+      "id": "part-tyre-mtb",
+      "name": "Offroad Mountain Tyre (Pair)",
+      "category": "Tyre",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 600 },
+        { "date": "2026-04-01", "cost": 680 }
+      ]
+    },
+    {
+      "id": "part-tyre-tubeless",
+      "name": "Tubeless Racing Tyre (Pair)",
+      "category": "Tyre",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 1500 },
+        { "date": "2026-06-01", "cost": 1650 }
+      ]
+    },
+    {
+      "id": "part-brake-caliper",
+      "name": "Caliper Brakes Set",
+      "category": "Brake",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 250 }
+      ]
+    },
+    {
+      "id": "part-brake-disc",
+      "name": "Disc Brakes Set",
+      "category": "Brake",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 800 },
+        { "date": "2026-04-01", "cost": 850 }
+      ]
+    },
+    {
+      "id": "part-saddle-gel",
+      "name": "Comfort Gel Saddle",
+      "category": "Saddle",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 300 }
+      ]
+    },
+    {
+      "id": "part-saddle-sports",
+      "name": "Sports Aerodynamic Saddle",
+      "category": "Saddle",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 500 },
+        { "date": "2026-05-01", "cost": 550 }
+      ]
+    },
+    {
+      "id": "part-handlebar-straight",
+      "name": "Straight Handlebar",
+      "category": "Handlebar",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 200 }
+      ]
+    },
+    {
+      "id": "part-handlebar-drop",
+      "name": "Drop-bar Racing Handlebar",
+      "category": "Handlebar",
+      "priceHistory": [
+        { "date": "2026-01-01", "cost": 600 }
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "id": "config-ranger",
+      "name": "Hero Ranger",
+      "description": "Standard heavy-duty steel commuter bike for daily usage",
+      "parts": [
+        "part-frame-steel",
+        "part-gear-single",
+        "part-tyre-road",
+        "part-brake-caliper",
+        "part-saddle-gel",
+        "part-handlebar-straight"
+      ],
+      "overheadCharges": 350,
+      "profitMarginPercentage": 12
+    },
+    {
+      "id": "config-sprint-pro",
+      "name": "Hero Sprint Pro",
+      "description": "Lightweight alloy hybrid bicycle with multi-gears for sport enthusiasts",
+      "parts": [
+        "part-frame-aluminum",
+        "part-gear-7spd",
+        "part-tyre-road",
+        "part-brake-disc",
+        "part-saddle-sports",
+        "part-handlebar-straight"
+      ],
+      "overheadCharges": 500,
+      "profitMarginPercentage": 15
+    },
+    {
+      "id": "config-octane-carbon",
+      "name": "Hero Octane Carbon Pro",
+      "description": "High-performance carbon-fiber road bike with 21-speed transmission",
+      "parts": [
+        "part-frame-carbon",
+        "part-gear-21spd",
+        "part-tyre-tubeless",
+        "part-brake-disc",
+        "part-saddle-sports",
+        "part-handlebar-drop"
+      ],
+      "overheadCharges": 800,
+      "profitMarginPercentage": 18
+    }
+  ]
+}
