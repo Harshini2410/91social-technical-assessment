@@ -524,6 +524,7 @@ header {
 }
 
 .form-input, .form-select, .form-textarea {
+  width: 100%;
   background: var(--bg-primary);
   border: 1px solid var(--text-secondary);
   border-radius: var(--radius-sm);
